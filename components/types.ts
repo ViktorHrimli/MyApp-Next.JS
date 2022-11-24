@@ -34,4 +34,10 @@ type UserProps = {
   name: string;
 };
 
-export { ContactProps, HeadingProps, UserPostProps, SocialsProps, UserProps };
+export type {
+  ContactProps,
+  HeadingProps,
+  UserPostProps,
+  SocialsProps,
+  UserProps,
+};
